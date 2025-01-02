@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite
+        name="All Test Suite"><test verbose="2" preserve-order="true"
+                                    name="C:/Users/Khaled/IdeaProjects/SeleniumAutomationProject"><classes><class
+        name="testCases.Day1LogInTest"><methods><include name="Login"/><include name="testMobileLink"/></methods></class><class
+        name="testCases.Day2MobileLinkTest"><methods><include name="testMobileLink"/></methods></class><class
+        name="testCases.Day3ErrorVarification"><methods><include name="testErrorVarification"/></methods></class><class
+        name="testCases.Day4WindowPopUp"><methods><include name="testWindowPopUp"/></methods></class><class
+        name="testCases.Day5AccountCreation"><methods><include name="day5AccountCreation"/></methods></class><class
+        name="testCases.Day6MyWishList"><methods><include name="testMyyWishlist"/></methods></class><class
+        name="testCases.Day9EnterCouponCode"><methods><include name="testEnterCouponCode"/></methods></class><class
+        name="testCases.ExampleTest"><methods><include name="testTestCase6"/></methods></class></classes></test></suite>
