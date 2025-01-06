@@ -1,0 +1,17 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNGTestSuit" verbose="1">
+
+    <test name="registrationPage" >
+        <classes>
+            <class name ="testCases.RegistrationPage">
+                <methods>
+
+
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+</suite>
