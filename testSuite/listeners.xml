@@ -2,16 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="TestNGTestSuit" verbose="1">
 <listeners>
-    <listener class-name="testComponents.Listeners"/>
+    <listener class-name="testComponents.TestListners"/>
 </listeners>
     <test name="registrationPage" >
         <classes>
-            <class name ="testCases.RegistrationPage">
-                <methods>
+            <class name ="testCases.RegistrationPage"/>
+            <class name="testCases.LandingHomePage"/>
 
-
-                </methods>
-            </class>
         </classes>
 
     </test>

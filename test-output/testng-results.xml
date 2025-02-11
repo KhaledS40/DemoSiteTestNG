@@ -1,25 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-09T14:14:25 EST" name="Default suite" finished-at="2024-12-09T14:14:39 EST" duration-ms="14039">
+  <suite started-at="2025-02-01T00:02:33 EST" name="TestNGTestSuit" finished-at="2025-02-01T00:03:16 EST" duration-ms="42665">
     <groups>
+      <group name="smoke">
+        <method signature="SwitchToTab.testWindowsSubTab()[pri:0, instance:testCases.switchTo.SwitchToTab@1329eff]" name="testWindowsSubTab" class="testCases.switchTo.SwitchToTab"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-12-09T14:14:25 EST" name="Default test" finished-at="2024-12-09T14:14:39 EST" duration-ms="14039">
-      <class name="testCases.LandingHomePage">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testCases.LandingHomePage@291caca8]" started-at="2024-12-09T14:14:25 EST" name="launchApplication" finished-at="2024-12-09T14:14:31 EST" duration-ms="6387" status="PASS">
+    <test started-at="2025-02-01T00:02:33 EST" name="registrationPage" finished-at="2025-02-01T00:03:16 EST" duration-ms="42665">
+      <class name="testCases.switchTo.SwitchToTab">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testCases.switchTo.SwitchToTab@1329eff]" started-at="2025-02-01T00:02:45 EST" name="launchApplication" finished-at="2025-02-01T00:02:51 EST" duration-ms="6669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="clickLandingPageLinks()[pri:0, instance:testCases.LandingHomePage@291caca8]" started-at="2024-12-09T14:14:31 EST" name="clickLandingPageLinks" finished-at="2024-12-09T14:14:37 EST" duration-ms="6259" status="PASS">
+        <test-method signature="switchToTab()[pri:0, instance:testCases.switchTo.SwitchToTab@1329eff]" started-at="2025-02-01T00:02:51 EST" name="switchToTab" finished-at="2025-02-01T00:02:54 EST" duration-ms="3088" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickLandingPageLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LandingHomePage@291caca8]" started-at="2024-12-09T14:14:37 EST" name="tearDown" finished-at="2024-12-09T14:14:39 EST" duration-ms="1357" status="PASS">
+        </test-method> <!-- switchToTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.switchTo.SwitchToTab@1329eff]" started-at="2025-02-01T00:02:54 EST" name="tearDown" finished-at="2025-02-01T00:02:56 EST" duration-ms="1364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.LandingHomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testCases.switchTo.SwitchToTab@1329eff]" started-at="2025-02-01T00:02:56 EST" name="launchApplication" finished-at="2025-02-01T00:03:02 EST" duration-ms="6169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testWindowsSubTab()[pri:0, instance:testCases.switchTo.SwitchToTab@1329eff]" started-at="2025-02-01T00:03:02 EST" name="testWindowsSubTab" finished-at="2025-02-01T00:03:05 EST" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindowsSubTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.switchTo.SwitchToTab@1329eff]" started-at="2025-02-01T00:03:05 EST" name="tearDown" finished-at="2025-02-01T00:03:06 EST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.switchTo.SwitchToTab -->
+      <class name="testCases.switchTo.WindowsTab">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testCases.switchTo.WindowsTab@6497b078]" started-at="2025-02-01T00:03:06 EST" name="launchApplication" finished-at="2025-02-01T00:03:12 EST" duration-ms="5942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testWindowsSubTab()[pri:0, instance:testCases.switchTo.WindowsTab@6497b078]" started-at="2025-02-01T00:03:12 EST" name="testWindowsSubTab" finished-at="2025-02-01T00:03:14 EST" duration-ms="2593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindowsSubTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.switchTo.WindowsTab@6497b078]" started-at="2025-02-01T00:03:14 EST" name="tearDown" finished-at="2025-02-01T00:03:16 EST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.switchTo.WindowsTab -->
+      <class name="testCases.switchTo.Frames">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testCases.switchTo.Frames@5609159b]" started-at="2025-02-01T00:02:33 EST" name="launchApplication" finished-at="2025-02-01T00:02:41 EST" duration-ms="7551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testFrameTab()[pri:0, instance:testCases.switchTo.Frames@5609159b]" started-at="2025-02-01T00:02:41 EST" name="testFrameTab" finished-at="2025-02-01T00:02:43 EST" duration-ms="2493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFrameTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.switchTo.Frames@5609159b]" started-at="2025-02-01T00:02:43 EST" name="tearDown" finished-at="2025-02-01T00:02:45 EST" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.switchTo.Frames -->
+    </test> <!-- registrationPage -->
+  </suite> <!-- TestNGTestSuit -->
 </testng-results>

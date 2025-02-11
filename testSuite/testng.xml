@@ -11,10 +11,7 @@
         </groups>
         <classes>
             <class name ="testCases.widgets.WidgetTab">
-                <methods>
 
-
-                </methods>
             </class>
         </classes>
 

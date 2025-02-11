@@ -1,17 +1,10 @@
 package pageFactory;
-
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import javax.swing.*;
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
+
 
 public class LandingPage {
 
@@ -22,10 +15,10 @@ public class LandingPage {
     @FindBy(css = "a[href='Register.html']")
     WebElement registerLink;
 
-    @FindBy(css = "a[href='WebTable.html']")
+    @FindBy(css = "a[href='WebTable.html]")
     WebElement webTableLink;
 
-    @FindBy(xpath = "//button[contains(text(),'alert box:')]")
+    @FindBy(xpath = "//button[contains(text(),'alert box')]")
     WebElement alertBox;
 
 

@@ -59,7 +59,7 @@ public class WidgetTab extends BaseTest {
         slider.hoverAndClickWidgetsTab();
         slider.clickSliderSubTab();
         slider.clickSliderBar();
-        slider.takeScreenShotOfBar();
+        //slider.takeScreenShotOfBar();
 
         System.out.println("this is slider");
     }

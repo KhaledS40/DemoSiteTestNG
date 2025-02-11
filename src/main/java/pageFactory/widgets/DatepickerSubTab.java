@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class DatepickerSubTab {
 
     public WebDriver driver;
@@ -21,16 +23,16 @@ public class DatepickerSubTab {
     @FindBy(xpath = "//a[normalize-space()='Datepicker']")
     WebElement datepickerSubTab;
 
-    @FindBy(xpath = "//img[@class='imgdp']")
+    @FindBy(linkText = "Datepicker")
     WebElement datepickerImg;
 
-    @FindBy(xpath = "//a[normalize-space()='5']")
-    WebElement dateSelect;
+    @FindBy(css = ".ui-state-default")  // 20
+    List<WebElement> dateSelect;
 
     @FindBy(css = "#datepicker2")
     WebElement datepicker2;
 
-    @FindBy(css = "a[title='Select Sunday, Oct 6, 2024']")
+    @FindBy(xpath = "/html/body/div[2]/div/div[2]/div/table/tbody/tr[4]/td[4]")
     WebElement selectDate;
 
 
@@ -44,12 +46,16 @@ public class DatepickerSubTab {
         datepickerSubTab.click();
     }
 
-    public void clickOnCalendar(){
+    public void clickOnCalendar() {
 
         datepickerImg.click();
-        dateSelect.click();
+        for (WebElement date : dateSelect) {
+            if (date.getText().equals(20)) {
+                date.click();
+                break;
+            }
+        }
     }
-
     public void clickEnabledCalendar(){
 
         datepicker2.click();
