@@ -1,8 +1,9 @@
 package testCases.switchTo;
-
 import org.testng.annotations.Test;
 import pageFactory.switchToTab.WindowsSubTabPage;
 import testComponents.BaseTest;
+
+
 
 public class WindowsTab extends BaseTest {
 
@@ -12,7 +13,6 @@ public class WindowsTab extends BaseTest {
     public void testWindowsSubTab() {
 
         window = new WindowsSubTabPage(driver);
-
         window.clickSwitchToLink();
         window.clickWindowsSubTab();
         window.clickTabbedWindowsTab();

@@ -1,5 +1,4 @@
 package testCases;
-
 import org.testng.annotations.Test;
 import pageFactory.Registration;
 import testComponents.BaseTest;

@@ -1,13 +1,13 @@
 package testCases.widgets;
-
 import org.testng.annotations.Test;
 import pageFactory.widgets.AccordionSubTab;
 import pageFactory.widgets.AutoCompleteSubTab;
 import pageFactory.widgets.DatepickerSubTab;
 import pageFactory.widgets.SliderSubTab;
 import testComponents.BaseTest;
-
 import java.io.IOException;
+
+
 
 public class WidgetTab extends BaseTest {
 

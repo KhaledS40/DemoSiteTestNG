@@ -1,11 +1,11 @@
 package testCases.switchTo;
-
 import org.testng.annotations.Test;
 import pageFactory.switchToTab.SwitchToTabPage;
 import pageFactory.switchToTab.WindowsSubTabPage;
 import testComponents.BaseTest;
-
 import java.io.IOException;
+
+
 
 public class SwitchToTab extends BaseTest {
 
@@ -16,7 +16,6 @@ public class SwitchToTab extends BaseTest {
     public void switchToTab() throws IOException {
 
         switchTo = new SwitchToTabPage(driver);
-
         switchTo.clickSwitchToLink();
         switchTo.clickAlertBox();
         switchTo.clickAlertLink();
@@ -30,7 +29,6 @@ public class SwitchToTab extends BaseTest {
     public void testWindowsSubTab() {
 
         window = new WindowsSubTabPage(driver);
-
         window.clickSwitchToLink();
         window.clickWindowsSubTab();
         window.clickTabbedWindowsTab();
